@@ -1,0 +1,109 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/*------ Variables */
+:root{
+    /*------ Colores */
+    /*------ Tipografía */
+    --normal:12px;
+    /*------ Espaciado */
+    --space:10px;
+    --space-2:20px;
+  }
+  
+/* -------------------------------------------  */
+html, body{
+  font-family: 'League Gothic', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Sans Pro', sans-serif;
+  color: var(--black-color);
+}
+
+p{
+  font-size: var(--normal);
+}
+
+
+/* -------------------------------------------  */
+
+/* -------------------------------------------  */
+
+/* Beneficios */
+.beneficios{
+  padding: 10%;
+  display: flex;
+}
+
+.beneficio{
+  text-align: center;
+  padding: 50px;
+}
+
+.beneficio img{
+  max-height: 100px
+}
+
+.text_beneficio{
+  text-align: center;
+  padding: 10px;
+
+}
+
+/* Menciones */
+.mentions{
+  display: flex;
+  padding: 5%;
+}
+.mention img{
+  width: 100%;
+}
+h2.mention_title{
+  text-align: center;
+}
+.mention{
+  padding: var(--space);
+}
+.content_mention{
+  background-color: #e6e6e6;
+  color: var(--black-color);
+  box-shadow: -4px 8px 17px -8px rgba(209,182,182,0.75);
+  -webkit-box-shadow: -4px 8px 17px -8px rgba(209,182,182,0.75);
+  -moz-box-shadow: -4px 8px 17px -8px rgba(209,182,182,0.75);
+  border-radius: 5px;
+  margin-bottom: var(--space);
+
+
+}
+.mention .text{
+  padding: var(--space);
+  font-weight: 500;
+  /* font-family:League Gothic ; */
+  color: #000;
+}
+
+/* Inicio Footer */
+footer{
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: #111111;
+  padding: var(--space);
+  color: var(--white-color);
+}
+.option a{
+  font-style: italic;
+  color:white;
+  
+}
+.option a:hover{
+  cursor: pointer;
+  color: rgb(5, 172, 41);
+}
+  

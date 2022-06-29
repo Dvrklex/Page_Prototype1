@@ -1,0 +1,66 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/*------ Variables */
+:root{
+    /*------ Colores */
+    /*------ Tipografía */
+    --normal:12px;
+    /*------ Espaciado */
+    --space:10px;
+    --space-2:20px;
+  }
+  
+/* -------------------------------------------  */
+html, body{
+  font-family: 'League Gothic', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Sans Pro', sans-serif;
+  color: var(--black-color);
+}
+
+p{
+  font-size: var(--normal);
+}
+/* contenido */
+.p-3{
+  margin-top: 62px;
+}
+.contenedor{ /*estas son las contenedoras */
+    max-width: 800px;
+    margin:auto;   
+    display: flex;
+}
+
+.contenedor .row{
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 12.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.row img{ /*estas son las imagenes */
+    width: 60%;
+    height: auto;    
+}
+
+
+.col-4{ /*estas son las imagenes*/
+    width: 40%;
+    margin-top: 3%;
+}
+
+.col-8{ /*estas son las descripciones*/
+    width: 60%;
+    margin-top: 3%;
+}
+
+.col-4 img:hover{  /*cuando coloco el cursor sobre las imagenes aparece la manito*/
+    cursor: pointer;
+}

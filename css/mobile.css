@@ -1,0 +1,143 @@
+/* Cuando max-width sea menor a 400px se ejecuta esto */
+@media (max-width: 400px) {
+  /* responsive para la parte de los Beneficios */
+  .beneficios{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .beneficio{
+    padding: 20px;
+  }
+  .text_beneficio{
+    padding: 20px;
+  }
+  /* responsive para la parte de las Mentiones */
+  .mentions{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mention{
+    padding: 20px;
+  }
+  .content_mention{
+    padding: 20px;
+  }
+  h2.mention_title{
+    text-align: center;
+  }
+  .mention .text{
+    text-align: center;
+  }
+  /* Responsive para la seccion de los productos */
+  .productos{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .producto{
+    padding: 5px;
+  }
+  .text_producto{
+    padding: 5px;
+  }
+  .producto img{
+    width: 100%;
+  }
+  .producto .text{
+    text-align: center;
+  }
+  .producto .text h3{
+    text-align: center;
+  }
+  .producto .text p{
+    text-align: center;
+  }
+  .col-4{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .col-8{
+    width: 100%;
+    margin-top: auto;
+  }
+}
+/* 
+ */
+
+@media(max-width: 800px) {
+  /* Responsive para la parte de los Beneficios */
+
+  .beneficios{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .beneficio{
+    padding: 20px;
+  }
+  .text_beneficio{
+    padding: 20px;
+  }
+  /* Responsive para la parte de las Mentiones */
+  .mentions{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mention{
+    padding: 20px;
+  }
+  .content_mention{
+    padding: 20px;
+  }
+  h2.mention_title{
+    text-align: center;
+  }
+  .mention .text{
+    text-align: center;
+  }
+  /* Responsive para la parte de los productos */
+  .productos{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .producto{
+    padding: 5px;
+  }
+  .text_producto{
+    padding: 5px;
+  }
+  .producto img{
+    width: 100%;
+  }
+  .producto .text{
+    text-align: center;
+  }
+  .producto .text h3{
+    text-align: center;
+  }
+  .producto .text p{
+    text-align: center;
+  }
+  .col-4{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .col-8{
+    width: 100%;
+    margin-top: auto;
+  }
+}
+
+  
+/* 
+ */
